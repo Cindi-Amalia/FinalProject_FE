@@ -1,0 +1,228 @@
+body {
+    background-image: url('assets/MUSIFY.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.form-playlist h2 {
+    color: black;
+}
+
+.search-song h2 {
+    color: black;
+}
+
+.form-playlist label {
+    color: black;
+}
+
+.form-playlist {
+    text-align: center;
+    border: 1px solid lightyellow background-color: #fbfffc;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: black;
+}
+
+.form-playlist textarea {
+    height: 40px;
+    width: 230px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+input {
+    height: 40px;
+    width: 230px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #3f6d4f;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+Button:hover {
+    background-color: #cff5dc;
+    color: black;
+    border: 2px solid black;
+}
+
+.card-login {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 80px;
+    padding-top: -10px;
+    color: #ffffff;
+}
+
+
+/* FLEX USED FOR SONG INFO */
+
+.card-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-search img {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+}
+
+
+/* GRID USED FOR TRACK TABLES */
+
+.song-card {
+    background-color: #d0dcd4;
+    display: grid;
+    grid-template-columns: minmax(500px, 30%) 1fr;
+    border: 1px solid #192f1f;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.song-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
+
+.song-title {
+    font-size: 10px;
+    text-align: center;
+}
+
+.song-title h1 {
+    color: black;
+}
+
+.song-title h2 {
+    color: black;
+}
+
+.img-profile {
+    border: 1px solid black;
+    border-radius: 130px;
+    margin: 20px;
+    background-color: #cff5dc;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile-page h1 {
+    color: black;
+}
+
+.profile-page h2 {
+    color: black;
+}
+
+.profile p {
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.profile-page {
+    text-align: center;
+    border: 1px solid #192f1f;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+/* FORM SEARCH SONG */
+
+.form-search {
+    text-align: center;
+    border: 1px solid #192f1f;
+    border-radius: 10px;
+    background-color: #fbfffc;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.home-text {
+    font-size: 50px;
+    color: white;
+}
+
+.logo-nav {
+    width: 130px;
+}
+
+.home-text {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.aboutus-text h1 {
+    font-size: 150px;
+    color: white;
+}
+
+.aboutus-text h3 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: -50px;
+}
+
+.aboutus-text p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: -50px;
+}
+
+.aboutus-text {
+    color: white;
+    margin-top: 80px;
+}
+
+.logout-text h1 {
+    font-size: 150px;
+    color: white;
+}
